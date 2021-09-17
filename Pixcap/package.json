@@ -1,0 +1,18 @@
+{
+  "name": "pixcap-canvas-automation",
+  "version": "1.0.0",
+  "description": "Automation Testing for Google Map Canvas project",
+  "main": "index.js",
+  "scripts": {
+    "cypress:run": "cypress run --reporter cypress-mochawesome-reporter",
+    "cypress:open": "cypress open"
+  },
+  "author": "Nguyen Dan Kha (Ivan)",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.3.1",
+    "cypress-image-snapshot": "^4.0.1",
+    "cypress-mochawesome-reporter": "^2.2.1",
+    "cypress-xpath": "^1.6.2"
+  }
+}

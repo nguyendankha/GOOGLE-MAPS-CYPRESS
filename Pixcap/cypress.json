@@ -1,0 +1,27 @@
+{
+  "ignoreTestFiles": [
+    "**/__snapshots__/*",
+    "**/__image_snapshots__/*"
+  ],
+  "env": {
+    "cypress-plugin-snapshots": {
+      "imageConfig": {
+        "threshold": 0.01
+      }
+    }
+  },
+  "viewportWidth": 1920,
+  "viewportHeight": 1080,
+  "video": true,
+  "videoCompression": false,
+  "videosFolder": "cypress/videos",
+  "videoUploadOnPasses": true,
+  "pageLoadTimeout": 120000,
+  "defaultCommandTimeout": 20000,
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportDir": "cypress/report",
+    "charts": true,
+    "reportPageTitle": "custom-title"
+  }
+}
